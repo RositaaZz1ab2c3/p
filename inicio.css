@@ -1,0 +1,137 @@
+body{
+    background-color: #E8E0D1;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 1349px;
+    height: 1350px;
+}
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+#logo-header:hover {
+	color: #0b76a6;
+}
+	
+#logo-header .site-name {
+	display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+	
+#logo-header .site-desc {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #999;
+}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+				
+.nav-right-selection a{
+    margin: 10px;
+    color: #ffffff;
+}
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline;
+    padding: 100px;
+}
+main .main-buttons button{
+    background-color: #444746;
+    border: 1px solid #444746;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 100x;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+main .main-buttons button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px #dadce0;
+    color: #202124
+}
+footer{
+    background-color: #f0f1f5fc; 
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    color: #70757a;
+    padding: 20px;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    margin-top: auto;
+}
+footer section{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 50%;
+    color: #70757a;
+}
+footer section.more-info{
+    border-top: #dadce0 solid 1px;
+    display: flex;
+    justify-content: space-between;
+}
+footer section.more_info div a{
+    color: #999da2;
+    text-decoration: none;
+    padding: 10px;
+}
+    
